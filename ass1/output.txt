@@ -1,0 +1,37 @@
+Script started on Sun 01 Apr 2018 06:43:45 PM PDT
+thongle7@uw1-320-11:~/ucourses/css342/labs/lab1$ valgrind ./ass1[9P./ass1g++ -std=c++14 -g -Wall -Wextra  ass1.cpp library.cpp -o ass1
+thongle7@uw1-320-11:~/ucourses/css342/labs/lab1$ ./ass1
+The books in the library UWB are: Don Quixote, In Search of Lost Time, Ulysses, The Odyssey.
+The books in the library UWB are: Don Quixote, In Search of Lost Time, Ulysses.
+The books in the library UWB are: Don Quixote, In Search of Lost Time, Ulysses, Java, C++, C, Python.
+The books in the library UWB are: Don Quixote, In Search of Lost Time, Ulysses, Python, C++, C, Java.
+Successfully completed all tests.
+thongle7@uw1-320-11:~/ucourses/css342/labs/lab1$ valgrind ./ass1
+==1095== Memcheck, a memory error detector
+==1095== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==1095== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==1095== Command: ./ass1
+==1095== 
+The books in the library UWB are: Don Quixote, In Search of Lost Time, Ulysses, The Odyssey.
+The books in the library UWB are: Don Quixote, In Search of Lost Time, Ulysses.
+The books in the library UWB are: Don Quixote, In Search of Lost Time, Ulysses, Java, C++, C, Python.
+The books in the library UWB are: Don Quixote, In Search of Lost Time, Ulysses, Python, C++, C, Java.
+Successfully completed all tests.
+==1095== 
+==1095== HEAP SUMMARY:
+==1095==     in use at exit: 72,704 bytes in 1 blocks
+==1095==   total heap usage: 4 allocs, 3 frees, 73,782 bytes allocated
+==1095== 
+==1095== LEAK SUMMARY:
+==1095==    definitely lost: 0 bytes in 0 blocks
+==1095==    indirectly lost: 0 bytes in 0 blocks
+==1095==      possibly lost: 0 bytes in 0 blocks
+==1095==    still reachable: 72,704 bytes in 1 blocks
+==1095==         suppressed: 0 bytes in 0 blocks
+==1095== Rerun with --leak-check=full to see details of leaked memory
+==1095== 
+==1095== For counts of detected and suppressed errors, rerun with: -v
+==1095== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+thongle7@uw1-320-11:~/ucourses/css342/labs/lab1$ exit
+
+Script done on Sun 01 Apr 2018 06:44:39 PM PDT

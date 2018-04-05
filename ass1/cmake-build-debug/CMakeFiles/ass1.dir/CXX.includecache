@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ThongLe/CLionProjects/ass1/ass1.cpp
+iostream
+-
+cassert
+-
+library.h
+C:/Users/ThongLe/CLionProjects/ass1/library.h
+
+C:/Users/ThongLe/CLionProjects/ass1/library.cpp
+library.h
+C:/Users/ThongLe/CLionProjects/ass1/library.h
+iostream
+-
+
+C:/Users/ThongLe/CLionProjects/ass1/library.h
+iostream
+-
+
